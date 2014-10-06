@@ -11,16 +11,18 @@ package practica1;
  * @author Vale
  */
 public class Ejerc3 {
-    int N;
+    int N3;
     
     //metodo constructor 
-    public Ejerc3(int N) {
-        this.N =N;
+    
+    public Ejerc3(int N3){
+        this.N3= N3;
     }
-    public double sumaIncremento(){
-    double resul;
-    resul= (((N+77)-3)*2);
-    return resul;
+
+    public double sumaIncremento() {
+        double resul;
+        resul= (((N3+77)-3)*2);
+        return resul;
     }
    
     

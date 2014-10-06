@@ -11,54 +11,56 @@ package practica1;
  * @author Vale
  */
 public class Ejer2 {
-    int Y,X;
-    double N,M;
+    int Y2,X2;
+    double N2,M2;
 
-    public Ejer2(int Y, int X, double N, double M) {
-        this.Y = Y;
-        this.X = X;
-        this.N = N;
-        this.M = M;
+    public Ejer2(int Y2, int X2, double N2, double M2) {
+        this.Y2 = Y2;
+        this.X2 = X2;
+        this.N2 = N2;
+        this.M2 = M2;
     }
+
+ 
     public int sumaYX(){
         int s;
-        s=Y+X;
+        s=Y2+X2;
         return s;
     
     }
      public int restaYX(){
         int R;
-        R=Y-X;
+        R=Y2-X2;
         return R;
     }
  public int multiplicacionYX(){
         int M;
-        M=Y*X;
+        M=Y2*X2;
         return M;
     }
   public int divicionYX(){
         int D;
-        D=Y/X;
+        D=Y2/X2;
         return D;
     }
    public double sumaNM(){
-        int s;
-        s=Y+X;
+        double s;
+        s=N2+M2;
         return s;
     }
     public double restaNM(){
-        int R;
-        R=Y-X;
+        double R;
+        R=N2-M2;
         return R;
     }
        public double multiplicacionNM(){
-        int M;
-        M=Y-X;
+        double M;
+        M=N2-M2;
         return M;
     }
           public double divicionNM(){
-        int D;
-        D=Y/X;
+        double D;
+        D=N2/M2;
         return D;
     }
 }
