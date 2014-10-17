@@ -11,13 +11,9 @@ package practica2;
  * @author Vale
  */
 public class Ejerc1 {
-    int mes;
-
-   
-     public int Mes1(int mes){
-         return (mes);
+ 
          
     
     }
     
-}
+
